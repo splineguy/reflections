@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    diff showed the location of changes that could cause the bug by comparing
+    the two different files.  It replaced the act of looking back and forth over
+    and over.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Being able to return to things you did in case your chase a rabbit down
+    a hole that ends up not being useful at all.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The hard part with automatic saving is that you don't know which versions
+    are significant and worth returning to.  You have to guess based on memory
+    what you were doing at what time. The downside to not having it automatically 
+    update is that you may forget to commit along the way.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git treats a project or group of files as something that is being done
+    in tandem all at once.  Google Docs focuses on the collaboration around 
+    a single document.  
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The git log (with --stat) will show me a list of all the commits along with
+    details about how many lines were changes, plus a note as to what was done
+    in that commit.  The git diff will show the changes between two commits. 
+    If you compare a commit with its immediately preceding commit, you'll see 
+    what changes were made during that phase.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Any changes that you make after a commit can be reverted back to a working
+    state.  You can also keep track of many changes over time to make sure that
+    you can return to any previous state that you committed.  I wish I'd known
+    or had access to this while working on code for Phil, Thea, or Susan.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Git might be used for several projects in the Programming Principles I
+    or the introduction to computer science course, or the algorithms course, etc.
+    I also wonder how much it can be used for things like project management.
+    I'll finish this course and then look into it.
