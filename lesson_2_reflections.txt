@@ -38,6 +38,10 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	The diagrams will help you associate commits with the changes and how 
+	they related to other branches. It will also help you see when detached 
+	HEAD states could lead to catastrophic losses if you aren't careful.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
