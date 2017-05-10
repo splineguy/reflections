@@ -7,15 +7,24 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	The staging area is a place to hold files that you know will be changed
-	in the next commit.  The working directory holds all the files for the
-	project typically.  I'm curious if there are issues with having repositories
-	nested inside other repositories.  The staging area limits the scope of changes
+	The staging area is a place to hold files that you know will be added to repository
+	in the next commit.  The working directory is where you are making changes before
+	you add them to the staging area.  The staging area is a place to put the finalized
+	code that needs to be added to the repositiory before you commit them to the
+	repository. (I'm curious if there are issues with having repositories
+	nested inside other repositories.)  The staging area limits the scope of changes
 	in each commit so you only make small, connected changes to the project
 	at a time.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	The staging area forces me to compile only those changes that I've made
+	that are related to a small, logically connected issue.  If I get too
+	eager and forget to stage those changes, I can use the diff comparisons to
+	isolate those changes in specific files, add only those files to the 
+	staging area, commit the changes, then add the next files to the staging
+	area, commit, and repeat as necessary.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
