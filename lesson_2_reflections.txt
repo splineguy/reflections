@@ -29,6 +29,13 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches allow you to create either temporary or experimental versions of
+	your code that you may or may not want to keep.  If I am testing out a 
+	feature that may or may not be included I can create a branch just for that
+	feature.  In my algorithmic code, I may be trying some new algorithm that
+	may or may not improve the efficiency of the code and so I want to be
+	able to branch my code versions in case it doesn't work.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
