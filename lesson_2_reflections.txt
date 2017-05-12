@@ -54,3 +54,9 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Automatic merging relies on algorithms to determine which changes to 
+	keep and discard.  There are scenarios where any changed line could
+	effect the changes made by other programmers and introduce bugs.
+	Manual merging allows those changes to be identified by the programmers
+	themselves.
