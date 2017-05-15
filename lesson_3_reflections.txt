@@ -10,4 +10,15 @@ automatically stay up-to-date with your remote repository?
 	to GitHub, you wouldn't want their work to automaticlaly be pushed
 	to you local repository.
 
+Describe the differences between forks, clones, and branches. When would 
+you use one instead of another?
+
+	A fork is a copy of a repository on GitHub onto a new repository still
+	on GitHub.  It links back to the original repository and allows for
+	new changes to be made and committed without changing the original repository.
+	This can be used to create a separate or new version of a project.
+	A clone is a copy of a repository, generally made locally.  It is pulled 
+	down from GitHub so that changes can be made and then pushed back to GitHub
+	Branches are lines of commits within a repository so that changes can
+	be made without losing track of a version in the repository.
 
