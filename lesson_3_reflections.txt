@@ -27,3 +27,13 @@ What is the benefit of having a copy of the last known state of the remote store
 	It provides the user with a copy of the shared repository so that comparisons
 	can be made to it to see what changes have occurred only locally.
 
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+	Versioning is the key component that makes collaborating easier in Git
+	and GitHub. Without versioning, you can't view the changes that are made
+	over time.  So without Git, you have to summarize those changes to your
+	collaborators very carefully.  Using Git without GitHub means that you
+	have to find some way to share and distribute your files.  This is
+	a challenge when using git, although you might be able to synchronize
+	file changes through things like Dropbox or google Drive.
