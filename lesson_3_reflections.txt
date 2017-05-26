@@ -22,3 +22,8 @@ you use one instead of another?
 	Branches are lines of commits within a repository so that changes can
 	be made without losing track of a version in the repository.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	It provides the user with a copy of the shared repository so that comparisons
+	can be made to it to see what changes have occurred only locally.
+
